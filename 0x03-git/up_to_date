@@ -1,1 +1,14 @@
-git pull
+git init
+git branch -M main
+git remote add origin git@github.com:mertoenjosh/alx-pre_course.git
+git status
+git add .
+git commit -m 'first commit'
+git push -u origin main
+git checkout -b update_script
+git commit -am 'My personal work'
+git push --set-upstream origin update_script
+git checkout main
+git commit -am 'Hot fix'
+git push
+git pull 
